@@ -2,10 +2,10 @@ import requests
 import time
 
 # Configuration
-DOMAIN = "https://carrot.student.fsktm.um.edu.my"  # Replace with the domain you want to monitor
+DOMAIN = "YOUR DOMAIN HERE"  # Replace with the domain you want to monitor
 CHECK_INTERVAL = 60  # Time in seconds between checks
-TELEGRAM_BOT_TOKEN = "7679631847:AAGbiyRDE3wLytHmELNo5r3feXLqMP0S_Vk"  # Replace with your bot's API token
-TELEGRAM_CHAT_ID = "1021282117"  # Replace with the chat ID where alerts should be sent
+TELEGRAM_BOT_TOKEN = "API KEY"  # Replace with your bot's API token
+TELEGRAM_CHAT_ID = "ID"  # Replace with the chat ID where alerts should be sent
 ALERT_COOLDOWN = 3600  # Cooldown period in seconds (1 hour)
 
 # Global state for cooldown
